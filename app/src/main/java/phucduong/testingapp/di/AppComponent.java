@@ -23,7 +23,10 @@ import phucduong.testingapp.MyApplication;
  * // and location of subcomponents.
  */
 @Singleton
-@Component (modules = AndroidSupportInjectionModule.class)
+@Component (modules = {
+        ActivityBindingModule.class,
+        AndroidSupportInjectionModule.class}
+        )
 public interface AppComponent extends AndroidInjector<MyApplication> {
 
     @Component.Builder

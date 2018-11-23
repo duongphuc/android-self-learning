@@ -1,11 +1,10 @@
 apply plugin: 'com.android.application'
-
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     defaultConfig {
         applicationId "phucduong.testingapp"
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -33,4 +32,11 @@ dependencies {
     implementation "com.google.dagger:dagger-android:$rootProject.daggerVersion"
     implementation "com.google.dagger:dagger-android-support:$rootProject.daggerVersion"
     annotationProcessor "com.google.dagger:dagger-android-processor:$rootProject.daggerVersion"
+
+    implementation ('com.jakewharton:butterknife:9.0.0-rc1'){
+        exclude group: 'com.android.support'
+        exclude module: 'appcompat-v7'
+        exclude module: 'support-v4'
+    }
+    annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc1'
 }
