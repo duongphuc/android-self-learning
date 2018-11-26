@@ -9,6 +9,8 @@ import dagger.Component;
 import dagger.android.AndroidInjector;
 import dagger.android.support.AndroidSupportInjectionModule;
 import phucduong.testingapp.MyApplication;
+import phucduong.testingapp.data.source.MetaRepository;
+import phucduong.testingapp.di.modules.MetaRepositoryModule;
 
 
 /**
@@ -24,11 +26,12 @@ import phucduong.testingapp.MyApplication;
  */
 @Singleton
 @Component (modules = {
+        MetaRepositoryModule.class,
         ActivityBindingModule.class,
         AndroidSupportInjectionModule.class}
         )
 public interface AppComponent extends AndroidInjector<MyApplication> {
-
+    MetaRepository getMetaRepository();
     @Component.Builder
     interface Builder {
         @BindsInstance

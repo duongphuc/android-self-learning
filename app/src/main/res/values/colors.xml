@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#65bef1</color>
-    <color name="colorPrimaryDark">#4ba1d2</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#00b9f2</color>
+    <color name="colorAccent">#00B9F2</color>
+    <color name="colorCover">#37CFFF</color>
+    <color name="colorProgress">#86E3FF</color>
+    <color name="colorTextTab">#777</color>
+    <color name="colorTextTabSelect">#00B9F2</color>
+    <color name="colorButton">#F7941D</color>
+    <color name="colorButtonDisable">#777</color>
+    <color name="colorBackgroundDisable">#D3D3D3</color>
+    <color name="colorCurrentLocationBg">#F5F5F5</color>
+    <color name="colorRecent">#919191</color>
+    <color name="error">#ff0000</color>
+    <color name="colorSearchBar">#FFF</color>
+
+    <color name="colorLabelJob">#555</color>
+    <color name="colorDrawer">#EBEBEB</color>
+
+    <color name="colorLineMenu">#DDD</color>
+
+    <color name="colorUploadButton">#EBEBEB</color>
+    <color name="colorHighlight">#00B9F2</color>
+    <color name="colorBackgroundHighlight">#F7FDFF</color>
+    <color name="colorMissingField">#F7941D</color>
+    <color name="colorBgNegativeButton">#f7f7f7</color>
+    <color name="colorTextNegativeButton">#f4f4f4</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBackgroundLightGray">#f1f1f1</color>
+    <color name="colorBackgroundMapJob">#71313131</color>
+    <color name="colorSalary">#F7941D</color>
+    <color name="colorDistance">#0bd262</color>
+    <color name="chipBgColor">#beff8c11</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#484547</color>
+
+    <color name="app_background_color">#FAFAFA</color>
+    <color name="divider_color">#C7C7CC</color>
+
+    <color name="item_selected_background_color">#C7C7CC</color>
+    <color name="image_placeholder_background_color">#C7C7CC</color>
+    <color name="notification_hub_read_bg_color">#324fa6ff</color>
+    <color name="yellow">#f5d713</color>
 </resources>

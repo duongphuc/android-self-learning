@@ -44,10 +44,7 @@ public abstract class BaseActivity extends DaggerAppCompatActivity {
         content.addView(inflater);
     }
 
-    protected void setupView() {
-
-    }
-
+    protected abstract void setupView();
     protected abstract int getLayoutId();
 
     protected void showErrorView(String message) {

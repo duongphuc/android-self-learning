@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_bg" />
+
+    <RelativeLayout
+        android:id="@+id/progress"
+        android:layout_width="260dp"
+        android:layout_height="5dp"
+        android:layout_centerInParent="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/progress_splash_full" />
+
+        <View
+            android:id="@+id/progress_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/progress_splash_current" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/progress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo_vnwork" />
+</RelativeLayout>

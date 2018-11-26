@@ -26,7 +26,6 @@ public class ListActivity extends BaseActivity implements ListContract.View {
 
     @Override
     protected void setupView() {
-        super.setupView();
         initialRecyclerView();
         presenter.takeView(this);
     }
